@@ -24,8 +24,6 @@ class SocialBetting {
   locked: boolean;
 
 
-
-
   constructor() {
 
   }

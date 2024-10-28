@@ -1,6 +1,5 @@
 import { NearBindgen, near, call, view, UnorderedMap, assert,NearPromise } from 'near-sdk-js';
 
-
 type Bet = {
   title: string;
   creatorName: string;
@@ -15,7 +14,6 @@ type Bet = {
   acceptorSubmittedWinner: string;
   isActive: boolean;
 };
-
 @NearBindgen({})
 class SocialBetting {
   owner: string;
